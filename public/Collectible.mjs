@@ -1,8 +1,11 @@
 class Collectible {
-  constructor({x, y, value, id}) {
-
+  constructor(x, y, value, id, radius, dx, dy) {
+    this.x = x;
+    this.y = y;
+    this.value = value;
+    this.id = id;
+    this.radius = radius;
   }
-
 }
 
 /*
